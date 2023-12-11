@@ -1,0 +1,10 @@
+
+QByteArray 
+toLatin1() const
+
+QByteArray 
+toLocal8Bit() const
+
+
+QByteArray 
+toUtf8() const

@@ -1,0 +1,30 @@
+Qt具体版本下载地址：https://download.qt.io/archive/qt/5.12/5.12.8/
+
+
+
+
+
+
+
+1.使用MaintenanceTool工具
+
+
+//添加的资料库的一个镜像
+https://mirrors.tuna.tsinghua.edu.cn/qt/online/qtsdkrepository/windows_x86/root/qt/
+
+
+//MaintenanceTool.exe文件太旧更新网址
+http://download.qt-project.org/online/qtsdkrepository/windows_x86/desktop/tools_maintenance
+
+
+
+
+//Qt开发常见问题论坛
+https://bugreports.qt.io/browse/QTVSADDINBUG-536
+
+
+
+
+C:\Qt\Qt5.9.7\5.9.7\msvc2013_64>set path=
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64;%path%

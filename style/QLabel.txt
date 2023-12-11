@@ -1,0 +1,20 @@
+//设置Label中字体颜色
+ui->serialState->setText("打开");
+QPalette palette = ui->serialState->palette();
+palette.setColor(QPalette::WindowText, QColor("red")); // 将文本颜色设为红色   此处选择QPalette::Text时文字颜色不改变    why?   i don't know
+ui->serialState->setPalette(palette);
+
+//设置Label中字体大小
+QFont font = ui->serialState->font();
+font.setPointSize(10); // 设置字体大小为14
+ui->serialState->setFont(font);
+
+
+//设置Label为一个指示灯
+ui->serialStateIndicator->setFixedSize(20, 20); // 设置固定大小
+ui->serialStateIndicator->setStyleSheet("border-radius: 10px; border:1px solid black; background:gray");//有边框
+
+
+//设置背景颜色
+label->setStyleSheet("background:#145F9B");
+

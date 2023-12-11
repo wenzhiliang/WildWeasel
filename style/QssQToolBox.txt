@@ -1,0 +1,56 @@
+QToolBox是Qt框架中的一个界面控件，用于显示多个页面。可以使用QToolBox的样式表来改变其外观和样式。以下是一些可以用于QToolBox的样式表属性：
+
+background-color：设置QToolBox的背景颜色。
+color：设置QToolBox中文本的颜色。
+border：设置QToolBox的边框样式。
+border-radius：设置QToolBox的边框圆角半径。
+QToolBox::tab：设置QToolBox中选项卡的样式。
+QToolBox::tab:selected：设置选中的选项卡的样式。
+QToolBox::tab:hover：设置鼠标悬停在选项卡上的样式。
+QToolBox::tab:disabled：设置禁用的选项卡的样式。
+
+
+使用QToolBox::tab样式设置选项卡的外观：
+QToolBox::tab {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+使用QToolBox::tab:selected样式设置选中选项卡的外观：
+QToolBox::tab:selected {
+    background-color: #fff;
+    color: #000;
+    border-bottom-color: #fff;
+}
+
+使用QToolBox::tab:hover样式设置鼠标悬停在选项卡上时的外观：
+QToolBox::tab:hover {
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+使用QToolBox::pane样式设置折叠面板的外观：
+QToolBox::pane {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 10px;
+}
+
+使用QToolBox::title样式设置选项卡的标题的外观：
+QToolBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+
+使用QToolBox::title:hover样式设置鼠标悬停在选项卡标题上时的外观：
+QToolBox::title:hover {
+    background-color: #e6e6e6;
+    color: #333;
+}
+
